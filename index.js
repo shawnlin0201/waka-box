@@ -110,4 +110,5 @@ function unicodeProgressBar(p, style = 7, min_size = 20, max_size = 20) {
 
 (async () => {
   await main();
+  await console.log('process complete')
 })();
